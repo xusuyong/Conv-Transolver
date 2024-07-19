@@ -174,6 +174,7 @@ class VariableDictDatasetTrackB(DictDataset):
             "data_train_B" in str(path)
             or "data_test_B" in str(path)
             or "data_validate_B" in str(path)
+            or "train_track_B" in str(path)
         ):
             self.zfill = 4
         else:
