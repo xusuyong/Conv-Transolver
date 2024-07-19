@@ -2,9 +2,9 @@ import torch.nn as nn
 import torch.nn.functional as F
 from functools import partialmethod
 import torch
-from .spectral_convolution import FactorizedSpectralConv
-from .padding import DomainPadding
-from .fno_block import FNOBlocks, resample
+# from .spectral_convolution import FactorizedSpectralConv
+# from .padding import DomainPadding
+# from .fno_block import FNOBlocks, resample
 
 
 class Lifting(nn.Module):
