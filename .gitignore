@@ -1,0 +1,4 @@
+*.zip
+model
+__pycache__
+*.pt
