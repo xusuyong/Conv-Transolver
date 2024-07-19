@@ -24,8 +24,8 @@ n_train: 500
 n_test: 1
 
 track: "Track_B"
-data_dir: "../../xsy_datasets/IJCAI_dataset/aistuio/data_train_B"
-test_data_dir: "../../xsy_datasets/IJCAI_dataset/aistuio/data_test_B"
+data_dir: "/content/train_track_B"
+test_data_dir: "/content/track_B/track_B"
 # test_data_dir: "../../xsy_datasets/IJCAI_dataset/aistuio/data_validate_B"
 
 sdf_spatial_resolution: [64, 64, 64]
