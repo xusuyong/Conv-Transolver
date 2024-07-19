@@ -20,8 +20,8 @@ data_module: "CFDNormalDataModule"
 sdf_spatial_resolution: [64, 64, 64]
 num_epochs: 1
 write_to_vtk: true
-n_train: 500
-n_test: 50
+n_train: 499
+n_test: 1
 
 use_multifi: false
 
