@@ -1,18 +1,18 @@
-from .GNO import GNO
-from .GeoFNO import GeoFNO
-from .GeoFNO2d import GeoFNO2d
-from .ContinuousConvNet import SmallContConvWithMLPKernel
-from .ConvUNet2 import UNet3DWithSamplePoints, UNet3DWithSamplePointsAhmed
-from .GNOFNOGNO import GNOFNOGNO, GNOFNOGNOAhmed, GNOFNOGNOTrackB
-from .FNOInterp import FNOInterp, FNOInterpAhmed
-from .FNOGNO import FNOGNO, FNOGNOAhmed
+# from .GNO import GNO
+# from .GeoFNO import GeoFNO
+# from .GeoFNO2d import GeoFNO2d
+# from .ContinuousConvNet import SmallContConvWithMLPKernel
+# from .ConvUNet2 import UNet3DWithSamplePoints, UNet3DWithSamplePointsAhmed
+# from .GNOFNOGNO import GNOFNOGNO, GNOFNOGNOAhmed, GNOFNOGNOTrackB
+# from .FNOInterp import FNOInterp, FNOInterpAhmed
+# from .FNOGNO import FNOGNO, FNOGNOAhmed
 from .utilities3 import count_params
-from .SDFFNOGNO import SDFFNOGNO
-from .Transolver import Transolver
+# from .SDFFNOGNO import SDFFNOGNO
+# from .Transolver import Transolver
 from .Transolver_conv_proj import Transolver_conv_proj
-from .Transolver_conv_multifi import Transolver_conv_multifi
-from .Transolver_conv_sdf import Transolver_conv_sdf
-from .TransGINO import TransGINO
+# from .Transolver_conv_multifi import Transolver_conv_multifi
+# from .Transolver_conv_sdf import Transolver_conv_sdf
+# from .TransGINO import TransGINO
 
 
 def instantiate_network(config):
