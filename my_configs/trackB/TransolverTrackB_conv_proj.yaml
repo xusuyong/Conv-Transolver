@@ -21,7 +21,7 @@ data_module: "TrackBDataModule"
 num_epochs: 800
 write_to_vtk: true
 n_train: 500
-n_test: 50
+n_test: 1
 
 track: "Track_B"
 data_dir: "../../xsy_datasets/IJCAI_dataset/aistuio/data_train_B"
@@ -46,3 +46,5 @@ unified_pos: 0
 
 subsample_train: 8
 subsample_eval: 8
+
+model_path: "model/model_module-Transolver_conv_proj-799_B.pt"

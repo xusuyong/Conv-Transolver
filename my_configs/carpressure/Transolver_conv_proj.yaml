@@ -18,7 +18,7 @@ pretrained_model_path: "logs/2024-06-15_11-05-41/model-Transolver-5.pt"
 data_module: "CFDNormalDataModule"
 
 sdf_spatial_resolution: [64, 64, 64]
-num_epochs: 1
+num_epochs: 800
 write_to_vtk: true
 n_train: 499
 n_test: 1
