@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 import torch
 from torch.utils.tensorboard import SummaryWriter
 
-from .visualization import fig_to_numpy
+# from .visualization import fig_to_numpy
 
 
 class Logger:
@@ -40,8 +40,8 @@ class Logger:
         fig.set_tight_layout(True)
         # set the background to white
         fig.patch.set_facecolor("white")
-        im = fig_to_numpy(fig)
-        self.log_image(tag, im, step)
+        # im = fig_to_numpy(fig)
+        # self.log_image(tag, im, step)
 
 
 class TensorBoardLogger(Logger):
