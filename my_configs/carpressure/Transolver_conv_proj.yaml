@@ -37,3 +37,5 @@ slice_num: 32
 unified_pos: 0
 subsample_train: 1
 subsample_eval: 1
+
+model_path: "model/model_module-Transolver_conv_proj-799_A.pt"
