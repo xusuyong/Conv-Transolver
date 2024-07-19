@@ -51,7 +51,7 @@ def parse_args():
     parser.add_argument(
         "--data_path",
         type=str,
-        default="../../xsy_datasets/GINO_dataset/car-pressure-data",
+        default="train_data",
         help="Override data_path in config file",
     )
     parser.add_argument("--lr", type=float, default=None, help="Learning rate")

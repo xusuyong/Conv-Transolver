@@ -773,7 +773,7 @@ class CFDNormalDataModule(CFDDataModule):
         self.train_indices = train_indices
         self.test_indices = test_indices
 
-        infer_data_dir = Path("../../xsy_datasets/IJCAI_dataset/aistuio/data_test_A")
+        infer_data_dir = Path("/content/track_A/track_A")
         infer_data_dir = infer_data_dir.expanduser()
         assert infer_data_dir.exists(), "Path does not exist"
         assert infer_data_dir.is_dir(), "Path is not a directory"
